@@ -17,7 +17,7 @@ const App = () => {
                 cardTitle="Card Title-1"
                 cardText="Lorem Ipsum Text 1"
                 updatedTime="Last Updated 21 min ago"
-                image="https://picsum.photos/id/1/200/300"
+                image="https://picsum.photos/id/29/200/300"
               />
             </Collapse>
           </div>
@@ -27,7 +27,7 @@ const App = () => {
                 cardTitle="Card Title-2"
                 cardText="Lorem Ipsum Text 2"
                 updatedTime="Last Updated 2 min ago"
-                image="https://picsum.photos/id/2/200/300"
+                image="https://picsum.photos/id/25/200/300"
               />
             </Collapse>
           </div>
@@ -37,7 +37,7 @@ const App = () => {
                 cardTitle="Card Title-3"
                 cardText="Lorem Ipsum Text 3"
                 updatedTime="Last Updated 3 min ago"
-                image="https://picsum.photos/id/3/200/300"
+                image="https://picsum.photos/id/17/200/300"
               />
             </Collapse>
           </div>
