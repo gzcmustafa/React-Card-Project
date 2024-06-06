@@ -11,7 +11,7 @@ This is a simple project created with React to demonstrate and learn the followi
 
 Each of these concepts is applied and illustrated within this project.
 
-### İmages
+### Images
 ![Screenshot of the project](my-app/images/image1.png)
 ![Screenshot of the project](my-app/images/image2.png)
 ![Screenshot of the project](my-app/images/image3.png)
