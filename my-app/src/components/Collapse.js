@@ -13,6 +13,13 @@ class Collapse extends React.Component {
     this.setState({ showContent: !this.state.showContent });
   };
 
+  componentDidMount() {
+    console.log("componenet created");
+  }
+  componentDidUpdate() {
+    console.log("component updated");
+  }
+
   render() {
     return (
       <div className="mx-3">
@@ -20,12 +27,16 @@ class Collapse extends React.Component {
           className="btn btn-primary w-100 mb-2 mt-3 "
           onClick={this.showMore}
         >
-          Click Card
+          {/* {this.props.children.props.cardTitle} */}
+          {React.Children.map(
+            this.props.children,
+            (children) => children.props.cardTitle
+          )}
         </button>
 
         {this.state.showContent ? (
           <div className="collapse show" id={this.props.href}>
-            {this.props.children}
+            {React.Children.map(this.props.children, (children) => children)}
           </div>
         ) : null}
       </div>

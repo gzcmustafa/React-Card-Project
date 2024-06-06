@@ -12,7 +12,7 @@ class Card extends React.Component {
           <p className="card-text">{this.props.cardText}</p>
           <p className="card-text">
             {" "}
-            <small className="text-muted">Last updated 3 mins ago</small>{" "}
+            <small className="text-muted">{this.props.updatedTime}</small>{" "}
           </p>
         </div>
       </div>
