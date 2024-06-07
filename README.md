@@ -1,4 +1,4 @@
-# Create React App
+# Simple React Card App
 
 This is a simple project created with React to demonstrate and learn the following concepts:
 
